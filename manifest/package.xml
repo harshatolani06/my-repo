@@ -16,5 +16,5 @@
     <types>
         <members>*</members>
         <name>LightningComponentBundle</name>
-    
+    </types>
 </Package
