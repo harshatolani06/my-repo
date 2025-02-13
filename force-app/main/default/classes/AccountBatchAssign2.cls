@@ -46,7 +46,7 @@ public class AccountBatchAssign2 implements Database.Batchable<sObject>, Databas
                 }
            }
   }
-   // Added by Harsha Tolani : 4/9/2022 this is finish method in this we update the value and send email accordingly and at a time only one alphabet names will be take and send email 
+   // Added by Harsha Tolani : 4/9/2022 this is a finish method in this we update the value and send email accordingly and at a time only one alphabet names will be take and send email 
     Public void finish(Database.BatchableContext info){
         	if(contactMails.size() > 0){
                 system.debug(contactMails);
